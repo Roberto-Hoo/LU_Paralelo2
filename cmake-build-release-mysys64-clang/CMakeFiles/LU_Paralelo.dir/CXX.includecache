@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/Programacao/CParalelaUfrgs2020_2/LU_Paralelo/parallelLU.cpp
+iostream
+-
+omp.h
+-
+stdio.h
+-
+ctime
+-
+gsl/gsl_linalg.h
+-
+gsl/gsl_rng.h
+-
+iomanip
+-
+
